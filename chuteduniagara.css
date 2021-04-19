@@ -1,0 +1,97 @@
+header{
+    margin-top: 5%;
+    padding-top: 3% ;
+    padding-bottom: 3%;
+    text-align: center;
+    color: rgba(255, 166, 0, 0.836);
+    background-color:rgba(0, 0, 0, 0.301) ;
+}
+header:hover{
+    background-color: rgba(0, 0, 0, 0.733);
+    transition: 0.5s;
+    color: white;
+}
+body{
+    background-image: url(./image/29486.jpg) ;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+
+}
+li a{
+    color: rgb(18, 8, 150);
+    background-color:rgba(253, 219, 27, 0.596) ;
+}
+h2{
+    
+    font-size: xx-large;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+li a:hover{
+    color: rgb(24, 2, 150);
+    transition: 0.5s;
+    background-color: rgba(255, 106, 0, 0.61); ;
+    
+}
+p{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;  
+}
+.gift{
+    text-align: center;
+}
+.acceuil{
+    text-align: center;
+    color: rgba(255, 166, 0, 0.836);
+    background-color:rgba(0, 0, 0, 0.301) ;    
+}
+.suivant{
+    color: rgba(255, 255, 255, 0.527);
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+.precedent{
+    color: rgba(255, 166, 0, 0.836);
+    background-color:rgba(0, 0, 0, 0.301) ;
+    text-align: left;
+}
+.acceuil:hover, .precedent:hover {
+    color: rgb(247, 0, 255);
+}
+div{
+    background-color: rgba(235, 188, 60, 0.473);
+}
+
+p a:hover{
+    color: black;
+    background-color: rgba(0, 176, 189, 0.877);
+}
+footer p{
+    text-align: center;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.938);
+    background-color: rgba(0, 0, 0, 0.101);
+}
+p a{
+    color: rgb(255, 255, 255);
+}
+ol li, ul li{
+    font-size:0.6cm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    margin-left: 30%;
+}
+iframe{
+    width: 500px;
+    height: 350px;
+    margin-left: 30%;
+}

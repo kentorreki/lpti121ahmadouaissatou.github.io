@@ -1,0 +1,108 @@
+header{
+    margin-top: 5%;
+    padding-top: 3% ;
+    padding-bottom: 3%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+header:hover{
+    background-color: rgba(255, 251, 0, 0.603);
+    transition: 1s;
+    color: black;
+}
+
+body{
+    
+    background-image: url(./image/murailledechine2.jpg);
+    background-position:bottom;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    color: #ffffff;
+}
+div{
+    background-color: rgba(255, 230, 0, 0.5);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+ol li, ul li{
+    font-size:0.8cm;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+li a{
+    color: rgb(255, 255, 255);
+}
+li a:hover{   
+    background-color: rgba(255, 251, 0, 0.438);
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+}
+
+.acceuil{
+    text-align: center;
+    color:  rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.101);
+    
+}
+.suivant{
+    color: rgb(255, 255, 255);
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.101);
+}
+.precedent{
+    color: rgba(255, 255, 255, 0.63);
+    text-align: left;
+    
+}
+
+.acceuil:hover, .suivant:hover {
+    color: rgb(231, 161, 196);
+
+}
+
+footer p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    background-color: rgba(143, 111, 5, 0.411);
+
+}
+p a{
+    color: rgba(119, 90, 250, 0.897);
+}
+p a:hover{
+    color: rgba(173, 53, 189, 0.918);
+}
+
+.acceuil:hover, .suivant:hover, .precedent:hover {
+    color: rgb(255, 0, 128);
+    ;
+}
+
+h2{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-decoration: underline;
+}
+.fright{
+    display: inline;
+    float:right;
+}
+.fleft{
+    display: inline;
+    float:left;
+}
+img{
+    margin-left: 30%;
+}
+iframe{
+    width: 500px;
+    height: 350px;
+    margin-left: 30%;
+}

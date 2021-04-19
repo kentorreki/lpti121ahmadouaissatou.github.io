@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Contactez-Nous</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./formulaire.css">
+        
+    </head>
+    <body>
+        <h2>Nous Contacter ?</h2>
+        <p class="intro">Remplissez ce formulaire et précisez vos revendication</p>
+        <form action="">
+        
+            
+            <div>
+                <label for="nom">Nom <span>*</span></label> 
+                <input type="text" required name="nom" id="nom">
+
+            </div>
+        
+            <div>
+                <label for="Prénom*">Prénom <span>*</span></label> 
+                <input type="text"  required name="prénom" id="prénom">  
+            </div>
+            <div>
+                <label for="Date*">Date De Naissance <span>*</span></label>
+                <input type="date"  required placeholder="date" id="date">
+            </div> 
+
+            <div>
+                <label for="lieu">Lieu De Naissance <span>*</span></label>
+                <input type="text"  required name="lieu" id="lieu">
+            </div> 
+        
+        
+            <div>
+                <p>SEXE</p>
+                
+                <div>
+                    <input type="radio" name="sexe" id="homme" value="0">
+                <label for="homme ">H</label>
+                </div>
+                <div>
+                    <input type="radio" name="sexe" id="femme" value="1">
+                <label for="femme">F</label>
+                </div>
+                
+                
+            
+            </div>
+            <div>
+                <label for="contribution">vos contribution</label>
+                <textarea name="contribution" id="contribution" cols="20" rows="20" placeholder="Entrez vos demande ou contribution."></textarea>
+            </div>
+            
+        
+            <div>
+                <label for="tel"> Tél. Portable <span>*</span></label>
+                <input type="number"  required name="" id="">
+            </div>
+            
+            <div>
+                <label for="email">email <span>*</span></label>
+                <input type="email" required name="email" id="email">
+            </div>
+            <div>
+                <label for="confemail">confirmer l'email <span>*</span></label>
+                <input type="email" required name="confemail" id="confemail">
+            </div>
+            
+            <div>
+                <label for="mdp">Donnez Un Mot De passe <span>*</span></label>
+                
+                <input type="password" required name="mot de passe" id="mdp">
+            </div>
+            <div>
+                <label for="cmdp">Confirmer Le Mot De passe <span>* </span></label>
+                
+                <input type="password" required name="mot de passe" id="cmdp">
+            </div>
+            <br><br>
+            
+            <div class="obligatoire">
+                * Champ obligatoire
+            </div>
+            <br><br>
+            <div>
+                <input type="reset"  name="retourner" value="retourner">
+                <input type="submit" name="envoyer" value="envoyer">
+                
+            </div>
+    </form>
+        <a href="./index.html" ><h2 class="ret">Retourner à l'Accueil</h2></a>
+    </body>
+
+
+
+
+</html>

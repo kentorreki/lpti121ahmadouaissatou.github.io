@@ -1,0 +1,83 @@
+h2{
+    text-align: center; 
+    color: rgb(93, 255, 52);
+}
+.intro{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    background-color: rgba(10, 197, 10, 0.486);
+    text-align: center;
+}
+form{
+    background-color: #04faee;
+    padding: 30px;
+    width: 600px;
+    margin: auto;
+}
+label{
+    margin-top: 10px;
+    display: block;
+}
+input, textarea, select, option{
+    background-color: #0943e2a4;
+}
+input, textarea, select{
+    padding: 3px;
+    border: 1px solid;
+    width: 200px;
+    
+}
+input[type="submit"],input[type="reset"]{
+    width: 100px;
+    margin-left: 5px;
+    box-shadow: #d83f3d 1px;
+    cursor: pointer;
+    background-color: #0943e2a4;
+    padding: 3px;
+    border: 1px solid;
+    width: 200px;
+}
+input[type="submit"]:hover, input[type="reset"]:hover{
+    background-color: black;
+    color: greenyellow;
+} 
+:required{
+    border: #f80 solid 1px;
+}
+:invalid{
+    background-color: #fee;
+    border-color: red;
+    border-width: 3px;
+}
+:valid{
+    background-color: cornsilk;
+    border: #5a5 1px;
+}
+input[type="radio"], input[type="checkbox"]{
+    width: auto;
+}
+input[type="checkbox"],input[type="radio"]{
+    display: inline;
+    float: left;
+}
+.obligatoire, span{
+    color: red;
+    
+}
+form{
+    background-image: url(./image/663219.jpg);
+    background-position:bottom;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+body{
+    background-color: rgba(105, 99, 99, 0.801);
+    color: white;
+}
+.ret:hover, h2:hover{
+    background-color: rgba(0, 255, 0, 0.856);
+    color: black;
+    transition: 1s;
+}
